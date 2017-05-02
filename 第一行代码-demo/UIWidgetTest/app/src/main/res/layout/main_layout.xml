@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#00ff00"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:text="This is TextView"
+        android:id="@+id/text_view"/>
+
+    <Button
+        android:id="@+id/button"
+        android:text="Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:hint="我是一个输入框"
+        android:textColor="#ff00ff"
+        android:textColorHint="#0f0fff"
+        android:maxLines="2"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:id="@+id/image_view"
+        android:src="@mipmap/ic_launcher" />
+
+    <!--<ProgressBar-->
+        <!--android:id="@+id/progress_bar"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:max="100"-->
+        <!--style="@style/Base.Widget.AppCompat.ProgressBar.Horizontal"/>-->
+</LinearLayout>
