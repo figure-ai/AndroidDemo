@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity"
+    >
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btnTeaching"
+        android:text="Teaching"/>
+
+    <Button
+        android:id="@+id/btnTopBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TopBar"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="myTextView"
+        android:onClick="btnMyTextView"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ShineTextView"
+        android:onClick="btnShineTextView"/>
+
+    <Button
+        android:id="@+id/btncircleView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CircleProgress"/>
+
+    <Button
+        android:id="@+id/btnVolumeView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="VolumeView"
+/>
+    <Button
+        android:id="@+id/btnMyScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MyScrollView"/>
+
+</LinearLayout>
